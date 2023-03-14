@@ -81,22 +81,33 @@ h2::before {
 }
 
 .item {
+    display: inline-block;
+    margin-top: 10px;
     font-size: 15px;
     color: #4c5055;
 }
 
 .item.affermative::before {
-    content:'\2705';
+    content:'\2713';
+    color: green;
+    border: 0.5px solid green;
+    border-radius: 50%;
 }
 
 .item.negative::before {
-    content:'\274C';
+    content:'\2715';
+    color: red;
+    border: 0.5px solid red;
+    border-radius: 50%;
 }
 
 .bloc {
+    display: inline-block;
     color: #ffffff;
     font-size: 10px;
-    height: 15px;
+    height: 20px;
+    width: auto;
+    padding: 5px;
     border-radius: 5px;
 }
 
