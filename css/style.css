@@ -7,11 +7,11 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f6f8f9;
 }
 
 header, #container {
-    background-color: #f6f8f9;
+    background-color: #ffffff;
 }
 
 /* header style */
@@ -19,11 +19,16 @@ header, #container {
 header {
     padding: 5px;
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 #logo {
     height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#logo-text {
     line-height: 50px;
     vertical-align: middle;
 }
@@ -34,14 +39,14 @@ header {
 #container {
     width: 70%;
     margin: auto;
-    padding: 10px 50px;
+    padding-top: 10px;
 }
 
 /* button section style */
 
 #button-section {
-    padding: 5px;
-    border-bottom: 1px solid lightgray;
+    padding: 10px 50px;
+    border-bottom: 2px solid #f6f8f9;
     margin-bottom: 30px;
 }
 
@@ -51,20 +56,23 @@ button {
     width: auto;
     padding: 5px;
     border: none;
-
 }
 
-#task-button {
+.button.task {
     color: #ffffff;
     background-color: #47adf1;
 }
 
-#section-button {
+.button.section {
     border: 1px solid lightgray;
     color: #d3d7d9;
 }
 
 /* principal section style */
+
+#container2 {
+    padding-left: 50px;
+}
 
 .list-item {
     margin-top: 20px;
